@@ -2,6 +2,9 @@
 
 print("Welcome to Python programming\n")
 
-
 name = input("please enter your name:")
-print("your name is {}".format(name)) # Python3 string formatting (better than +)
+
+# \ is a continuous symbol used to write statement on multiple lines
+# ; for multiple statements in single line
+greetings = \
+    "Hello, {}!".format(name); print("\n" + greetings)
